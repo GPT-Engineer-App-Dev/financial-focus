@@ -27,7 +27,7 @@ const financialData = [
 
 const Index = () => {
   return (
-    <Container maxW="container.xl" p={4}>
+    <Container maxW="container.xl" p={4} bg="#fff1e5">
       <Flex as="nav" bg="gray.800" color="white" p={4} mb={4} justifyContent="space-between">
         <Heading size="md">Financial Times</Heading>
         <HStack spacing={4}>
